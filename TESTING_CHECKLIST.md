@@ -1,0 +1,23 @@
+# Testing / Acceptance Checklist
+
+- [ ] Deployed URL opens without an error.
+- [ ] Home module works.
+- [ ] Dataset upload accepts CSV.
+- [ ] Missing required columns are reported.
+- [ ] Empty data is rejected.
+- [ ] Null and duplicate summaries display.
+- [ ] EDA displays descriptive statistics.
+- [ ] EDA displays class distribution.
+- [ ] EDA contains at least three interactive charts.
+- [ ] Prediction loads `models/trained_model.joblib`.
+- [ ] Prediction inputs match saved pipeline features.
+- [ ] Class label displays.
+- [ ] Probability displays when supported.
+- [ ] Model metrics are documented.
+- [ ] Dashboard distinguishes observed facts from predictions.
+- [ ] Review queue is visible.
+- [ ] System Design shows five functional requirements.
+- [ ] System Design shows three non-functional requirements.
+- [ ] Use-case diagram displays.
+- [ ] Decision workflow displays.
+- [ ] Five sample predictions are recorded for submission.
